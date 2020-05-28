@@ -1,0 +1,22 @@
+{
+    "name": "phonographe",
+    "version": "1.0.0",
+    "description": "Phonographe est le compagnon idéal pour jouer de la musique lors de vos parties de jeux via Discord.",
+    "main": "phonographe.js",
+    "keywords": [
+        "music",
+        "bot",
+        "sound",
+        "youtube",
+        "discord"
+    ],
+    "author": "Thibault Meyer",
+    "license": "MIT",
+    "dependencies": {
+        "discord.js": "^12.2.0",
+        "ytdl-core": "^2.1.5",
+        "fluent-ffmpeg": "^2.1.2",
+        "ffmpeg": "0.0.4",
+        "@discordjs/opus": "^0.3.2"
+    }
+}
