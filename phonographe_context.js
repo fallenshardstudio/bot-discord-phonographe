@@ -9,12 +9,12 @@ Context.prototype.getServerId = function () {
     return this._serverId;
 };
 
-Context.prototype.getCurrentDispatcher = function () {
-    return this._currentDispatcher;
+Context.prototype.getConnection = function () {
+    return this._connection;
 };
 
-Context.prototype.setCurrentDispatcher = function (currentDispatcher) {
-    this._currentDispatcher = currentDispatcher;
+Context.prototype.setConnection = function (connection) {
+    this._connection = connection;
 };
 
 
