@@ -8,6 +8,10 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
+
+    client.fetchApplication().then(function(app) {
+        console.log(`Use this link to register bot: https://discord.com/api/oauth2/authorize?client_id=${app.id}&permissions=3147776&scope=bot`);
+    })
 });
 
 client.on('message', msg => {
@@ -109,7 +113,6 @@ async function execute(ctx, msg) {
     }
 }
 
-console.log("Use this link to register bot: https://discord.com/api/oauth2/authorize?client_id=715309773582762045&permissions=3147776&scope=bot");
 console.log("Login to Discord...")
 
 client.login(process.env.DISCORD_BOT_PHONOGRAPHE_TOKEN);
