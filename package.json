@@ -18,6 +18,6 @@
         "ytsr": "^0.1.14",
         "fluent-ffmpeg": "^2.1.2",
         "ffmpeg": "0.0.4",
-        "@discordjs/opus": "^0.3.2"
+        "@discordjs/opus": "^0.8.0"
     }
 }
